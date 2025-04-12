@@ -176,7 +176,7 @@
         },
         blur(ele) {
             let is_finish = parseInt(ele.getAttribute('if_finish'))
-            if (ele.values !== '' && !is_finish) {
+            if (ele.value !== '' && !is_finish) {
                 ele.setAttribute('if_finish', 1)
                 this.input_finish_animate(ele)
             }
